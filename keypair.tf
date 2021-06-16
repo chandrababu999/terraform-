@@ -1,0 +1,6 @@
+resource "aws_key_pair" "mykeypair"{
+key_name = "mykeyterraform"
+#public_key = "(/home/chandu/.ssh/id_rsa.pub)"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCzkgiWFkCxsQHc4p4Bk9qJXFAggnqm3dTigOJD2c5gq91jlVLa1TpTrTY5RGjVFKp50z8aKeBS6BoAuUKf1wu/e5QFhXQdVmw1F/yWPEaWi+EH2s/BPyNfsfkWGjPy/9uCYFzoJ5qbaxgCDAc0rWPjJT+dHu7cI0gl1MEsl1GGrypnrSuNAym74meXFfm1iwgTfOqlFHwqaPYAxZ0FShTklNEVTti6a8+bLzlnL35/fFTk8yAzGK4iRTuU7hdWngZtgiy5ejf677+rXQ5ObMBB9eLdaXQZW7KylhO9S00g9/S0ADZwlwSBp0lFrY20jYYi/iKAGipju7WL8b66BdfVgBa+x1i0x8HZCbMnYut+0he951QZIYZ1mNQN8DDPcaVUVzXO/6hUS5APynqZCeEynQFz1Qkbj3l/oISk1m4N26Z1G3sNlQFhw+nFHQpHRjnJRCtmQKCgfYyrv0F4iGUyNbqKKHOyF1BKhOFZkVSJathfJwgCAaKALA7mA7f3Ns8= chandu@localhost.localdomain"
+
+}
